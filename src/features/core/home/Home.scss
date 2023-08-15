@@ -1,0 +1,19 @@
+@import 'src/scss/variables.scss';
+
+.Home {
+    flex-grow: 1;
+    background-color: $gray-0;
+    gap: 1rem;
+
+    p {
+        color: $gray-8;
+    }
+
+    &>span {
+        gap: .3rem;
+
+        & > a {
+            color: $green;
+        }
+    }
+}
